@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("Pic/homepageimg.jpg");
+    -webkit-background-size:cover;
+    background-size:cover;
+    background-position: center center;
+}
+
+.wrapper{
+    width: 1170px;
+    margin: auto;
+}
+
+header{
+    height: 90vh;
+    position: relative;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    padding: 20px;
+    float: left;
+    color: #fff;
+}
+
+.nav-area{
+    display: inline;
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.nav-area li{
+    display: inline-block;
+}
+
+.nav-area li a{
+    color:#fff;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px; 
+    text-transform: uppercase;  
+}
+
+.nav-area li a:hover{
+    background: #fff;
+    color: #333;
+}
+
+.welcome-text{
+    position: absolute;
+    width: 1500px;
+    height: 3000px;
+    margin:10% 20%;
+    text-align: center;
+    color: antiquewhite;
+}
+
+.welcome-text h1{
+    text-align: center;
+	  color: #fff;
+	  text-transform: uppercase;
+	  font-size: 60px;
+}
+.welcome-text table{
+    color: #333;
+    background:#fff;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    border-collapse: collapse;
+    min-width: 23em; width: 70%; max-width: 56em;
+    border-radius: .5em;
+    box-shadow: 0 0 .5em #000;
+}
+
+.welcome-text table th{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(209, 209, 209);
+}
+
+.welcome-text table td{
+    padding: 20px 30px 20px 30px ;
+    color: black;
+}
+
+.welcome-text button{
+    padding: 5px;
+}
+
+.welcome-text a {
+	  border: 1px solid #fff;
+	  padding: 10px 25px;
+	  text-decoration: none;
+	  text-transform: uppercase;
+	  font-size: 14px;
+	  margin-top: 20px;
+	  display: inline-block;
+	  color: #fff;
+}
+
+.welcome-text a:hover {
+	  background: #fff;
+	  color: #333;
+}
+
+.form{
+    width: 50%;
+    padding: 30px 0;
+    background: rgb(13 16 16 / 80%);
+    transition: .2s;
+    color: white;
+    margin-left: 9%;
+}
+.form h3 {
+    font-weight: 600;
+    font-size:30px;
+    padding-bottom: 20px;
+}
+
+.inputFields {
+    margin: 15px 0;
+    font-size: 16px;
+    padding: 10px;
+    width: 250px;
+    border: 1px solid rgba(10, 180, 180, 1);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: rgba(20, 20, 20, .2);
+    color: white;
+    outline: none;
+  }
+
+.noBullet {
+    list-style-type: none;
+    padding: 0;
+}
+  
+#join-btn {
+    border: 1px solid rgba(10, 180, 180, 1);
+    background: rgba(20, 20, 20, .6);
+    font-size: 18px;
+    color: white;
+    margin-top: 20px;
+    padding: 10px 50px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+#join-btn :hover {
+    background: rgba(20, 20, 20, .8);
+    padding: 10px 80px;
+}
+
+footer{
+    color: #fff;
+    text-align: center;
+    padding-bottom:30px ;
+}

@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("Pic/homepageimg.jpg");
+    -webkit-background-size:cover;
+    background-size:cover;
+    background-position: center center;
+}
+
+.wrapper{
+    width: 1170px;
+    margin: auto;
+}
+
+header{
+    height: 90vh;
+    position: relative;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    padding: 20px;
+    float: left;
+    color: #fff;
+}
+
+.nav-area{
+    display: inline;
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.nav-area li{
+    display: inline-block;
+}
+
+.nav-area li a{
+    color:#fff;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px; 
+    text-transform: uppercase;  
+}
+
+.nav-area li a:hover{
+    background: #fff;
+    color: #333;
+}
+
+.welcome-text{
+    position: absolute;
+    width: 1500px;
+    height: 600px;
+    margin:10% 20%;
+    text-align: center;
+    color: antiquewhite;
+    overflow: auto;
+    display: flex;
+}
+
+.welcome-text h1{
+    text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 60px;
+}
+
+.welcome-text table{
+    color: #333;
+    background:#fff;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: scroll;;
+    border-collapse: collapse;
+    min-width: 23em; width: 70%; max-width: 56em;
+    border-radius: .5em;
+    box-shadow: 0 0 .5em #000;
+}
+
+.new-user {
+    align-items: center;
+    float: right;
+    padding: 50px;
+    border: 1px solid #fff;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-top: 5%;
+    color: #fff;
+    margin-right: 8%;
+}
+
+.welcome-text table th{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(209, 209, 209);
+}
+
+.welcome-text table td{
+    padding: 20px 30px 20px 30px ;
+}
+
+.welcome-text table td button{
+    padding: 5px;
+}
+
+.welcome-text a {
+	border: 1px solid #fff;
+	padding: 10px 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-top: 20px;
+	color: #333;
+}
+
+.h1{
+    color: #fff;
+}
+
+.welcome-text a:hover {
+	background: #fff;
+	color: #333;
+}
+
+footer{
+    color: #fff;
+    text-align: center;
+    padding-bottom:30px ;
+}
